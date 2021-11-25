@@ -5,11 +5,11 @@
 
 > Voy a probar cargar todos mis archivos.
 
-## A L E R T A :
+#### Alerta:
  
 >> *Se almacenarán los datos del TP final de IP*
 
-## F U N C I Ó N :
+#### Función:
  
 >> *Copia de seguridad*
 
