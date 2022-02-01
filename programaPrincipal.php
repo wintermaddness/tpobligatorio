@@ -48,7 +48,7 @@ function cargarJuegos() {
  * Verifica que el número sea válido (1-7).
  * @return int
  */
-function seleccionarOpcion(){
+function seleccionarOpcion() {
     //inciso 2 - int $minimo, $maximo, $respuesta
     echo "\n+--------------------M E N Ú----------------------+\n";
     echo "1) Jugar al tateti \n";
@@ -318,8 +318,9 @@ do {
     $opcion = seleccionarOpcion();
     /** SWITCH: Estructura de control alternativa que ejecuta línea por línea un código (al principio, ningún código es ejecutado).
      * Sólo cuando se encuentra una sentencia CASE cuya expresión se evalúa a un valor que coincida con el valor de la expresión switch,
-     * PHP comienza a ejecutar las sentencias y las continua ejecutando hasta el final del bloque switch (o hasta la primera vez que vea una sentencia BREAK).
-     * */
+     * PHP comienza a ejecutar las sentencias y las continua ejecutando hasta el final del bloque switch (o hasta la primera vez que vea
+     * una sentencia BREAK).
+     **/
     switch ($opcion) {
         case 1:
             //Si el usuario elije la opción 1 - Se inicia el juego Tateti.
